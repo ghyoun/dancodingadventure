@@ -27,6 +27,10 @@
 					templateUrl: 'views/thompson02.html',
 				})
 
+				.when('/thompson03', {
+					templateUrl: 'views/thompson03.html',
+				})
+
 				.when('/hoot01', {
 					templateUrl: 'views/hoot01.html',
 				})
