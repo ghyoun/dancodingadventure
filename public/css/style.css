@@ -1,0 +1,189 @@
+/* Custom CSS */
+
+@font-face {
+    font-family: "Redacted";
+    src: url("../fonts/redacted-regular.eot");
+    src: url("../fonts/redacted-regular.woff2") format("woff2"),
+         url("../fonts/redacted-regular.woff") format("woff"),
+         url("../fonts/redacted-regular.otf") format("opentype"),
+         url("../fonts/redacted-regular.svg#filename") format("svg");
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  font-family: "sans-serif";
+  font: "Helvetica";
+}
+
+p {
+  font-size: 12pt;
+}
+
+#home {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.home_page_body {
+  background-image: url("../img/bg.png");
+  background-color: #b9babe;
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#newBody {
+    background-image: url("../img/bg.png");
+    background-color: #b9babe;
+    background-size: 100% 100%;
+    background-position: 740px 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.placeholder-text {
+    font-family: "Redacted";
+    color: lightgrey;
+}
+
+/* Navbar */
+.navbar-brand {
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+  color: black !important;
+}
+
+.navbar-nav.navbar-right .btn { position: relative; z-index: 2; padding: 4px 20px; margin: 10px auto; }
+
+.navbar {
+     position: relative;
+     opacity: 0.9;
+     padding-top: 50px;
+ }
+
+ #thompsonStory {
+   background-color: #663399 !important;
+ }
+
+.navbar .navbar-right > li:nth-last-child(2) { padding-left: 22px; }
+.navbar .navbar-right > li:last-child { padding-left: 12px;}
+
+.brighter-btn {
+    background-color: #333 !important;
+    color: #eee !important;
+}
+
+.navbar-fixed-top {
+  border: 0px !important;
+}
+
+.navbar.navbar-inverse { background-color: transparent; }
+.navbar>li { float: right; }
+
+.btn.btn-circle { border-radius: 50px; }
+.btn.btn-outline { background-color: transparent; }
+
+@media screen and (max-width: 767px) {
+    .navbar .navbar-right > li:nth-last-child(2) { padding-left: 15px; }
+    .navbar .navbar-right > li:last-child { padding-left: 10px; padding-right: 15px; }
+
+    .navbar { margin: 7.5px auto; padding: 0; }
+    .navbar { margin: 0; }
+    .navbar>li { float: none; }
+
+    body {
+        background-image: none;
+        background-color: #b9babe;
+        background-size: cover;
+        background-position: 0% 0%;
+        background-repeat: no-repeat;
+    }
+}
+
+.dash-content {
+    padding-left: 107px;
+}
+
+/* Home Page */
+
+#timeline1 text {
+  font-size: 100% !important;
+  font-weight: bolder;
+}
+
+#timeline2 text {
+  font-size: 100% !important;
+  font-weight: bolder;
+}
+
+.danName {
+  margin-top: 50px;
+  padding-top: 10px;
+}
+
+.thomName {
+  color: #663399;
+}
+
+#timeline {
+  margin-top: 170px;
+}
+
+#timeline3 {
+  margin-top: 5px;
+}
+
+/* Thompson01 */
+#thompson01 {
+  padding-bottom: 35px;
+  font-family: "sans-serif";
+  font: "Helvetica";
+}
+
+#thompson01 h1,h2 {
+  font-weight: bolder;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#introToHTML {
+  margin-top: 10px;
+}
+
+#thompson01 em {
+  font-weight: bolder;
+}
+
+#thompson01 h2 {
+  margin-top: 30px;
+}
+
+#thompson01 h3 {
+  color: #663399;
+  font-weight: bolder;
+}
+
+#thompson01 img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+}
+
+#arrowright img {
+  border: 0px;
+  margin-top: 80px;
+}
+
+.footer a, h4 {
+  color: black;
+}
+
+.checklist {
+  list-style: square;
+}
+/* Hoot01 */
+
+#hoot01 {
+  height: 800px;
+}

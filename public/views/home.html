@@ -1,0 +1,56 @@
+<ng-include src="'views/partials/navbar.html'"></ng-include>
+<script>
+var kurbickFilms = [{name:"Humble Beginnings", date: "2017-03-07", img: "https://cdn.discordapp.com/attachments/288844484450451456/288869221977423872/Screenshot_2.png", link: "thompson01",},
+  {name:"Second HTML", 	date:"2017-03-13", img: "https://cdn.discordapp.com/attachments/288844484450451456/312147503342551040/html2.PNG",link: "thompson02",},
+  {name:"HTML with a Form", 	date:"2017-04-04", img: "https://cdn.discordapp.com/attachments/288844484450451456/312147507708952576/html3.PNG",link: "thompson03",},
+  {name:"Test Portfolio", date:	"2017-04-24", img: "https://cdn.discordapp.com/attachments/288844484450451456/306239098098679808/portfolio_assignment.png",link: "thompson04",},
+  {name:"Color Clicker", date:	"2017-05-03", img: "https://cdn.discordapp.com/attachments/288844484450451456/312147916905119744/color.png",link: "thompson05",},
+  {name:"Javascript Crash Course", date:	"2017-05-04", img: "https://cdn.discordapp.com/attachments/288844484450451456/312159752106934272/Z.png",link: "thompson06",},
+  {name:"Disappearing Tilda", date:	"2017-05-10", img: "https://cdn.discordapp.com/attachments/288844484450451456/312077348319133696/tilda.jpg.jpg",link: "thompson07",}
+];
+
+TimeKnots.draw("#timeline1", kurbickFilms, {dateFormat: "%B %d", color: "#663399", width:800, showLabels: true, labelFormat: "%B %d"});
+
+var kurbickFilms2 = [{name:"Dog with a Blog", date: "2017-04-04", img: "https://cdn.discordapp.com/attachments/288844484450451456/312157253677613056/dog.jpg"},
+  {name:"HTML/CSS Crash Course", date:	"2017-04-24", img: "https://cdn.discordapp.com/attachments/288844484450451456/306237104399056896/chapter2135_1511_box-model-01-03.png"},
+  {name:"Color Clicker", date:	"2017-05-03", img: "https://cdn.discordapp.com/attachments/288844484450451456/312147916905119744/color.png"},
+  {name:"Appending Data with a Form", date:	"2017-05-06", img: "https://cdn.discordapp.com/attachments/288844484450451456/311292893837131776/chapter2194_1984_add-user.png"},
+  {name:"Appending Data with Validations", date:	"2017-05-11", img: "https://cdn.discordapp.com/attachments/288844484450451456/311292893837131776/chapter2194_1984_add-user.png"}
+];
+
+TimeKnots.draw("#timeline2", kurbickFilms2, {dateFormat: "%B %d", color: "black", width:800, showLabels: true, labelFormat: "%B %d"});
+
+function redirect(link) {
+  window.location.replace("/" + link);
+}
+</script>
+<div class="container" id='home' ng-init='onload();'>
+    <div class="row">
+        <br>
+        <h1 class="text-center">Thompson and Van Houten's Coding Adventure</h1>
+        <h4 class="text-center">to become full-fledged <strong><em>Web Developers</em></strong></h4>
+        <br>
+    </div>
+    <div class="row" id='timeline'>
+        <div class='col-md-2 danName'>
+          <h2 class="text-center thomName">Thompson</h2>
+        </div>
+        <div class='col-md-10' id='timelineRow'>
+          <div id='timeline1' style='width: 800px;'></div>
+        </div>
+    </div>
+
+    <div class="row" id='timeline3'>
+        <div class='col-md-2 danName'>
+          <h2 class="text-center hootName">Van Houten</h2>
+        </div>
+        <div class='col-md-10' id='timelineRow' class='secondTLRow'>
+          <div id='timeline2' style='width: 800px;'></div>
+        </div>
+    </div>
+    <script>
+
+
+
+    </script>
+</div>

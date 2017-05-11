@@ -1,0 +1,19 @@
+<nav class="navbar navbar-inverse navbar-fixed-top" ng-controller="NavbarController">
+    <div class="container">
+        <!-- Brand Logo -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/"><i>D C A</i></a>
+        </div>
+        <!-- Nav List -->
+        <div class="nav-list">
+            <ul class="nav navbar-nav navbar-right">
+                <li ng-if="!userInfo.status">
+                    <a class="btn btn-default btn-outline btn-circle brighter-btn" id="hootStory" href="/login">Hoot's Story</a>
+                </li>
+                <li ng-if="!userInfo.status">
+                    <a class="btn btn-default btn-outline btn-circle brighter-btn" id="thompsonStory" href="/signup">Thompson's Story</a>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+</nav><!-- /.navbar -->
