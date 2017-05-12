@@ -172,7 +172,13 @@ p {
 
 #arrowright img {
   border: 0px;
-  margin-top: 80px;
+  margin-top: 5px;
+}
+
+#cssPic {
+  border: 0px !important;
+  width: 60% !important;
+  height: 60% !important;
 }
 
 .footer a, h4 {
@@ -182,7 +188,29 @@ p {
 .checklist {
   list-style: square;
 }
+
+.cssrow {
+  margin-top: 10px;
+}
+
+.csstag {
+  font-weight: 550;
+  font-size: 14pt;
+  text-align: center;
+}
+
+#sith {
+  box-shadow: 3px 3px 3px 3px crimson;
+}
+
 /* Hoot01 */
+
+#sexyHoot {
+  width: 50% !important;
+  height: 50% !important;
+  text-align: center !important;
+  margin-left: 25%;
+}
 
 #hoot01 {
   height: 800px;
